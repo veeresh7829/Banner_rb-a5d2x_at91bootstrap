@@ -1,0 +1,17 @@
+change big banner
+
+in terminal follow this commands,
+$sudo apt-get install figlet
+$figlet Banner name
+
+after your customize banner name will generate copy that banner name and open rugged-board
+
+in root terminal follow this cmds
+
+~#cd /etc
+~#vim issue     in this remove old-banner and place new-banner which copied from termial and save it.
+~#cd ssh
+~#vim sshd_config   in this remove # and none, like (#Banner none)- only Banner should be there after save it.
+boot the board
+
+Note:This is only for sd card 
